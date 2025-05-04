@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+      content="Student Registration System - Register, Edit, and Manage Students">
+    <title>Student Registration System</title>
+    <!----------------------------------- Google Fonts ----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400..700&family=Marcellus&display=swap"
+      rel="stylesheet">
+    <!-----------------------------------  CSS Included  ----------------------------------->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!---------------------------------------------------------------- Start ----------------------------------------------------------------->
+    <!------------------------------------------------------------ Heading Section ----------------------------------------------------------->
+    <header>
+      <h1>Student Registration System</h1>
+      <p>Register, edit, and manage student details like Name, Class, Address,
+        and Contact Number easily!</p>
+    </header>
+    <!----------------------------------------------------------- Main Section Start ------------------------------------------------------------>
+    <!---------------------------------------------------------- Registration Section -------------------------------------------------------->
+    <main>
+      <section id="register-form">
+        <div class="register-student-text"><h2 class="register-student">Register
+            Student's Details</h2></div>
+        <form id="student-form">
+          <input type="text" id="studentName" placeholder="Student Name"
+            required>
+          <input type="text" id="studentClass" placeholder="Student ID"
+            required>
+          <input type="text" id="studentAddress" placeholder="Email ID"
+            required>
+          <input type="tel" id="contactNumber" placeholder="Contact No"
+            required>
+          <button type="submit">Register</button>
+        </form>
+      </section>
+      <!------------------------------------------------------- Registered Students Section ---------------------------------------------------->
+      <section id="records-section">
+        <div class="register-student-text"><h2
+            class="registered-student">Registered Students</h2></div>
+        <div class="table-container">
+          <table id="studentsTable">
+            <thead>
+              <tr>
+                <th>Student Name</th>
+                <th>Student ID</th>
+                <th>Email ID</th>
+                <th>Contact No</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!------------------------------------------- Student Records Will Appear here Dynamically --------------------------------------->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <!------------------------------------------------------------- Main Section End ------------------------------------------------------------->
+    <!----------------------------------------------------------- Footer Section Start ----------------------------------------------------------->
+    <footer class="footer">
+      <p>&copy; Rohit Palekar</p>
+    </footer>
+    <!----------------------------------------------------------- Footer Section End ------------------------------------------------------------->
+    <!---------------------------------------  JS Included  -------------------------------------->
+    <script src="script.js" defer></script>
+    <!---------------------------------------------------------------- End ----------------------------------------------------------------->
+  </body>
+</html>

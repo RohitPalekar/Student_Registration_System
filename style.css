@@ -1,0 +1,157 @@
+/*---------------------------------------- Start ----------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfffe;
+  padding: 20px;
+}
+
+/*---------------------------------------- Header Section ----------------------------------------*/
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #252620;
+  font-size: 45px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header p {
+  color: #4a4b46;
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*---------------------------------------- Registration Section ----------------------------------------*/
+#register-form {
+  background: #fdfffe;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.register-student-text {
+  display: flex;
+  justify-content: center;
+}
+.register-student {
+  color: #252620;
+  font-size: 30px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+form input,
+form button {
+  display: block;
+
+  padding: 10px;
+  margin: 10px auto;
+}
+
+form button {
+  background-color: #252620;
+  width: 55%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+form input {
+  background-color: #fdfffe;
+  width: 95%;
+  border: 1px solid black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+form button:hover {
+  background-color: #b88900;
+}
+
+/*---------------------------------------- Registered Students Section ----------------------------------------*/
+#records-section {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.registered-student {
+  color: #252620;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.table-container {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #252620;
+  color: white;
+}
+
+.actions button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.actions .editit {
+  background-color: blue;
+  color: white;
+}
+
+.actions .deleteit {
+  background-color: red;
+  color: white;
+}
+
+/*---------------------------------------- Footer Section ----------------------------------------*/
+.footer {
+  background-color: #252620;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 8px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: larger;
+  width: 100%;
+  border-radius: 30px 30px 5px 5px;
+}
+/*---------------------------------------- End ----------------------------------------*/
