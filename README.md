@@ -1,4 +1,4 @@
-# 🎓 Student Registration System
+# 🎓 [Student Registration System](https://rohitpalekar.github.io/Student_Registration_System/)
 
 A simple and responsive web-based system that allows users to **register**, **edit**, and **delete** student information. Built using HTML, CSS, and JavaScript, it uses the browser's localStorage to persist student records.
 
