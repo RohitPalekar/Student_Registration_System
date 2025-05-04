@@ -11,7 +11,6 @@ A simple and responsive web-based system that allows users to **register**, **ed
 - 🗑️ Delete student records from the table
 - 💾 Data persists using browser `localStorage`
 - 🧼 Clean and user-friendly UI
-- ⚙️ Simple non-regex input validation
 - 📱 Responsive layout for desktop and mobile
 
 ---
